@@ -1,0 +1,200 @@
+{
+  "spider": "./XBPQ.jar",
+  "lives": [
+    {
+      "name": "咪咕直播",
+      "type": 1,
+      "ua": "okhttp/3.15",
+      "url": "http://www.52top.com.cn:678/downloads/migu.txt"
+    },
+    {
+      "name": "经典剧场",
+      "type": 0,
+      "url": "./json/经典剧场.jsont"
+    },
+    {
+      "name": "达人频道",
+      "type": 0,
+      "url": "./json/达人频道.json"
+    },
+    {
+      "name": "精品合集",
+      "url": "https://ghfile.geekertao.top/https://github.com/xiaowu1973/tvbox18/blob/master/dinka.m3u"
+    }
+  ],
+  "sites": [
+     {
+      "key": "豆瓣",
+      "name": "豆瓣",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "ext": "./js/drpy.js",
+      "searchable": 0
+    },
+    {
+      "key": "1905",
+      "name": "1905",
+      "type": 3,
+      "api": "./py/1905.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },  
+    {
+      "key": "看客联盟",
+      "name": "看客",
+      "type": 3,
+      "api": "./py/skapp.py",
+      "ext": {
+        "host": "https://kankelm.cn:2024/appdomain.txt",
+        "key": "ygcnbcvybqqckwqy",
+        "iv": "1583560747143708"
+      }
+    },
+    {
+      "key": "屠夫影院",
+      "name": "屠夫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类": "电影$dianying#连续剧$lianxuju#综艺$zongyi#动漫$dongman#言情片$yanqingpian#",
+        "线路数组": "class=\"dvdyy-content__playlist clearfix column6\">&&</ul>",
+        "分类url": "http://k.jsgshtl.com/s/{cateId}/area/{area}/lang/{lang}/page/{catePg}/year/{year}.html",
+        "简介": ""
+      }
+    },    
+    {
+      "key": "采集合集",
+      "name": "采集",
+      "type": 3,
+      "api": "./py/采集成人.py"
+    },
+    {
+      "key": "X影视",
+      "name": "速影",
+      "type": 3,
+      "api": "./py/X影视.py",
+      "ext": ""
+    }, 
+    {
+      "key": "PTT线上看",
+      "name": "PTT",
+      "type": 3,
+      "api": "./py/PTT线上看.py",
+      "ext": ""
+    },
+    {
+      "key": "fulleroticmovies",
+      "name": "怀旧",
+      "type": 3,
+      "api": "./py/fulleroticmovies.py"
+    },
+    {
+      "key": "妲己视频",
+      "name": "妲己",
+      "type": 3,
+      "api": "./py/妲己视频.py"
+    },
+    {
+      "key": "熊猫秒播",
+      "name": "熊猫",
+      "type": 3,
+      "api": "./py/熊猫秒播.py"
+    },
+    {
+      "key":"黄AV资源",
+      "name":"黄AV",
+      "type":1,
+      "api":"https://www.pgxdy.com/api/json.php",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"白嫖资源",
+      "name":"白嫖",
+      "type":1,
+      "api":"https://www.kxgav.com/api/json.php",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"美少女资源",
+      "name":"美少女",
+      "type":1,
+      "api":"https://www.msnii.com/api/json.php",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"香奶儿资源",
+      "name":"香奶儿",
+      "type":1,
+      "api":"https://www.gdlsp.com/api/json.php",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"淫水机资源",
+      "name":"淫水机",
+      "type":1,
+      "api":"https://www.xrbsp.com/api/json.php",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key": "push_agent",
+      "name": "Push",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 0,
+      "changeable": 0,
+      "timeout": 60
+    }
+  ],
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "name": "sniffer",
+      "hosts": [
+        "api.52wyb.com"
+      ],
+      "regex": [
+        "m3u8?pt=m3u8"
+      ]
+    },
+    {
+      "name": "click",
+      "hosts": [
+        "www.maolvys.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+      ]
+    }
+  ],
+  "ads": [
+    "static-mozai.4gtv.tv",
+    "s3t3d2y8.afcdn.net"
+  ]
+}
