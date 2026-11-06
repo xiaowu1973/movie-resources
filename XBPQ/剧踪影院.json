@@ -1,0 +1,10 @@
+{
+  "分类": "电影$1#剧集$2#综艺$3#动漫$4",
+  "分类url": "https://www.juzong01.me/vodshow/{cateId}-----------{catePg}---.html",
+  "搜索url": "https://www.juzong01.me/vodsearch/{wd}----------1---.html",
+  "数组": "<li class=\"col-lg-&&</li>",
+  "标题": "title=\"&&\"",
+  "链接": "href=\"&&\"",
+  "列表图片": "data-original=\"&&\"",
+  "播放列表": "</li>"
+}
