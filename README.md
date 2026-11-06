@@ -1,3 +1,17 @@
+常用工具：
+
+文本比较、json格式化： https://tsq.lanzouf.com/b0c4rjpsb 密码:123
+
+开发者工具箱： https://1024tools.com/
+
+文本处理： http://www.txttool.com/
+
+直播源批量检测工具： https://tsq.lanzouf.com/b0c4p2fba 密码:123
+
+MXPlayer-Pro-1.46.10高级解锁版： https://tsq.lanzouf.com/b0c4p1nyf 密码:123
+
+MD5获取小工具：http://www.metools.info/
+
 ## 在线接口 (点击复制)
 
 > 使用教程：下载软件后点击下方卡片复制接口链接，到设置 - 点播 - 使用配置接口。
