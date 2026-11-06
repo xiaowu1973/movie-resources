@@ -304,12 +304,14 @@
       "timeout": 60
     },
     {
-      "key": "1905影视",
+      "key": "1905",
       "name": "1905",
       "type": 3,
-      "api": "./py/1905.py",
-      "searchable": 1
-    },
+      "api": "csp_Web1905",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },    
     {
       "key": "华数TV",
       "name": "华数",
