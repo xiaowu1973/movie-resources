@@ -1,5 +1,5 @@
 {
-  "spider": "./XBPQ.jar",
+  "spider": "./merged.jar",
   "lives": [
     {
       "name": "咪咕直播",
