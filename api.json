@@ -457,6 +457,13 @@
       "api": "./py/X影视.py"
     },
     {
+      "key": "剧踪影院",
+      "name": "剧踪",
+      "type": 3,
+	  "api": "csp_XBPQ",
+      "ext": "./XBPQ/剧踪影院.json"
+    },	  
+    {
       "key": "兄弟影视",
       "name": "兄弟",
       "type": 3,
