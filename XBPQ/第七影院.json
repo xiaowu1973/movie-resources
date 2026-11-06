@@ -1,0 +1,17 @@
+{
+  "主页url": "https://the7tv.com",
+  "请求头": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+  "分类": "电影$1#连续剧$2#综艺$3#动漫$4#短剧$27#理论片$20",
+  "分类url": "https://the7tv.com/the/{cateId}.html?page={catePg}",
+  "搜索url": "https://the7tv.com/search/{wd}-------------.html",
+  "二次截取": "<div class=\"col-sm-wide-8 col-xs-1 p-xs-0\"&&</div>",
+  "数组": "<li class=\"col-md-6 col-sm-4 col-xs-3 \"&&</li>",
+  "标题": "title=\"&&\"",
+  "链接": "href=\"&&\"",
+  "列表图片": "data-original=\"&&\"",
+  "副标题": "<span class=\"vtitle text-right\">&&</span>",
+  "播放列表": "</li>",
+  "播放数组": "<ul class=\"&&</ul>",
+  "播放标题": ">&&</a>",
+  "播放链接": "href=\"&&\""
+}
