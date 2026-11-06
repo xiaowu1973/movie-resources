@@ -333,6 +333,13 @@
       "searchable": 1
     },
     {
+      "key": "麻花影视",
+      "name": "麻花",
+      "type": 3,
+      "api": "./py/麻花影视.py",
+      "searchable": 1
+    },	  
+    {
       "key": "豆花电影",
       "name": "豆花",
       "type": 3,
@@ -370,24 +377,6 @@
       }
     },
     {
-      "key": "开心影院",
-      "name": "开心",
-      "type": 3,
-      "api": "./py/开心影院.py"
-    },
-    {
-      "key": "不卡影视",
-      "name": "不卡",
-      "type": 3,
-      "api": "./py/不卡影视.py"
-    },
-    {
-      "key": "鬼片之家",
-      "name": "鬼片",
-      "type": 3,
-      "api": "./py/鬼片之家.py"
-    },
-    {
       "key": "追剧达人",
       "name": "达人",
       "type": 3,
@@ -413,6 +402,24 @@
       "name": "九九",
       "type": 3,
       "api": "./py/99影视.py"
+    },	  
+    {
+      "key": "开心影院",
+      "name": "开心",
+      "type": 3,
+      "api": "./py/开心影院.py"
+    },
+    {
+      "key": "不卡影视",
+      "name": "不卡",
+      "type": 3,
+      "api": "./py/不卡影视.py"
+    },
+    {
+      "key": "鬼片之家",
+      "name": "鬼片",
+      "type": 3,
+      "api": "./py/鬼片之家.py"
     },
     {
       "key": "白鲨影院",
@@ -425,13 +432,6 @@
       "name": "大米",
       "type": 3,
       "api": "./py/大米电影网.py"
-    },
-    {
-      "key": "麻花影视",
-      "name": "麻花",
-      "type": 3,
-      "api": "./py/麻花影视.py",
-      "searchable": 1
     },
     {
       "key": "麒麟影视",
@@ -457,150 +457,7 @@
       "name": "速影",
       "type": 3,
       "api": "./py/X影视.py"
-    },
-    {
-      "key": "剧踪影院",
-      "name": "剧踪",
-      "type": 3,
-	  "api": "csp_XBPQ",
-      "ext": {
-		"副标题": "<i>&&</i>",
-		"请求头": "User-Agent$MOBILE_UA",
-		"编码": "UTF-8",
-		"分类url": "https://www.juzong01.me/;;!H"
-	  }
     },	  
-    {
-      "key": "兄弟影视",
-      "name": "兄弟",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "嗅探词": ".m3u8?#sns-creator-preview.xhscdn.com#.m3u8#47.96.255.149#v3-cold-src.toutiaovod.com#38.61.5.6:11301#tvcms.aikanhd.vip#.mp4",
-        "过滤词": "/dmku.brovod.top/#xdad.m3u8",
-        "影片年代": "<divclass=\"module-info-tag\">&&</div>",
-        "影片状态": "备注：&&</div>",
-        "影片类型": "module-info-tag\">&&立即播放",
-        "线路数组": "data-dropdown-value=&&</div>",
-        "线路标题": "<span>&&</span>",
-        "分类url": "https://www.brovod.com/show/{cateId}-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}",
-        "分类": "电影$Movies#剧集$TV#动漫$Anime#综艺$Shows#纪录片$Documentaries#短剧$Snaps#"
-      }
-    },
-    {
-      "key": "猴哥影视",
-      "name": "猴哥",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://www.wxxkdp.com/",
-        "副标题": "module-item-note&&</div>",
-        "主演": "主演：&&</a>",
-        "线路数组": "\"vod_play_from\":&&",
-        "线路标题": "title=\"&&\"",
-        "跳转播放链接": "varurlDecode(var player_*url\":\"&&\")",
-        "分类url": "https://www.wxxkdp.com/vodtype/{cateId}.html",
-        "分类": "电影$1#剧集$2#动漫$4#综艺$3#动作片$6#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#电视剧$2#国产剧$25#香港剧$15#泰国剧$14#韩国剧$16#台湾剧$22#日本剧$23#欧美剧$24#海外剧$13#综艺$3#动漫$4"
-      }
-    },
-    {
-      "key": "新时代影视",
-      "name": "时代",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "http://www.xuefangqunzi.com/",
-        "副标题": "<i>&&</i>",
-        "线路数组": "/v/&&</li>",
-        "线路标题": "title=\"&&\"",
-        "分类url": "http://www.xuefangqunzi.com/s/{cateId}/class/{class}/page/{catePg}/year/{year}.html",
-        "分类": "电影$dianying#连续剧$lianxuju#综艺$zongyi#动漫$dongman#"
-      }
-    },
-    {
-      "key": "饭团影视",
-      "name": "饭团",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "简介": "简介：&&</div>",
-        "请求头": "手机",
-        "副标题": "<span class=\"pic-text text-right\">&&</span>",
-        "线路数组": "#playlist&&</a>",
-        "线路标题": "title=\"&&\"",
-        "分类url": "http://ftys24.com/ftvodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#"
-      }
-    },
-    {
-      "key": "奇速电影",
-      "name": "奇速",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "简介": "简介：&&</div>",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "副标题": "<span class=\"pic-text text-right\">&&</span>",
-        "线路数组": "#playlist&&</a>",
-        "线路标题": "title=\"&&\"",
-        "分类url": "https://www.qisudy.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5#"
-      }
-    },
-    {
-      "key": "北京影院",
-      "name": "北京",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "简介": "简介：&&</div>",
-        "请求头": "手机",
-        "副标题": "<span class=\"pic-text text-right\">&&</span>",
-        "线路数组": "#playlist&&</a>",
-        "线路标题": "title=\"&&\"",
-        "分类url": "http://www.lncxbj.com/hdshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$40#伦理片$30#电影解说$39"
-      }
-    },
-    {
-      "key": "水牛影院",
-      "name": "水牛",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "简介": "简介：&&</div>",
-        "请求头": "手机",
-        "副标题": "<span class=\"pic-text text-right\">&&</span>",
-        "线路数组": "#playlist&&</a>",
-        "线路标题": "title=\"&&\"",
-        "分类url": "https://sunnykings.com/so-show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$30#伦理片$36"
-      }
-    },
-    {
-      "key": "屁屁影院",
-      "name": "屁屁",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "简介": "简介：&&</div>",
-        "请求头": "手机",
-        "主页url": "https://www.parrothatch.com/",
-        "副标题": "<span class=\"pic-text text-right\">&&</span>",
-        "线路数组": "#playlist&&</a>",
-        "线路标题": "title=\"&&\"",
-        "分类url": "https://www.parrothatch.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#伦理片$36"
-      }
-    },
     {
       "key": "爱听音乐",
       "name": "爱听",
