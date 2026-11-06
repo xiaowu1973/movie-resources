@@ -1,0 +1,7 @@
+{
+  "请求头": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  "分类": "中文字幕$zhongwenzimu#无字幕$wuzimu#国产$guochan#动漫$dongman#欧美$oumei",
+  "分类url": "https://goh81.hdys04.com/vodtype/{cateId}{catePg}.html",
+  "搜索url": "https://goh81.hdys04.com/vodsearch/{wd}-------------.html",
+  "播放列表": "</li>"
+}
