@@ -75,16 +75,11 @@
       "filterable": 1,
       "ext": {
         "发布地址": "1:https://b.hdfby.com/,2:https://b.hdfby.org/",
-        "数组": "stui-vodlist__thumb&&</a",
-        "标题": "title=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "副标题": "pic-tag-b*>&&<",
-        "链接": "href=\"&&\"[替换:voddetail>>vodplay#.html>>-1-1.html]",
-        "嗅探词": ".mp4#.m3u8#.flv",
-        "分类url": "https://goh81.hdys04.com/vodshow/{cateId}--------{catePg}---.html;;z",
-        "跳转播放链接": "urlDecode(Base64(var player_*url\":\"&&\"))",
-        "搜索url": "https://goh81.hdys04.com//vodsearch/{wd}----------{pg}---.html",
-        "分类": "有码$1#无码$2#国产$3#欧美$4#动漫$5#中字有码$6#骑兵有码$7#中字无码$8#步兵无码$9#糖心Vlog$13#国产传媒$11#国产精品$10#欧美中字$12#中字动漫$14#3D动漫$15"
+        "请求头": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "分类": "中文字幕$zhongwenzimu#无字幕$wuzimu#国产$guochan#动漫$dongman#欧美$oumei",
+        "分类url": "https://goh81.hdys04.com/vodtype/{cateId}{catePg}.html",
+        "搜索url": "https://goh81.hdys04.com/vodsearch/{wd}-------------.html",
+        "播放列表": "</li>"
       }
     },    
     {
