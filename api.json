@@ -461,7 +461,12 @@
       "name": "剧踪",
       "type": 3,
 	  "api": "csp_XBPQ",
-      "ext": "./XBPQ/剧踪影院.json"
+      "ext": {
+		"副标题": "<i>&&</i>",
+		"请求头": "User-Agent$MOBILE_UA",
+		"编码": "UTF-8",
+		"分类url": "https://www.juzong01.me/;;!H"
+	  }
     },	  
     {
       "key": "兄弟影视",
