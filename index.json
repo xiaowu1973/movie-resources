@@ -231,7 +231,7 @@
     },
     {
       "key": "fulleroticmovies",
-      "name": "怀旧",
+      "name": "情色电影",
       "type": 3,
       "api": "./py/fulleroticmovies.py"
     },
@@ -247,6 +247,30 @@
       "type": 3,
       "api": "./py/熊猫秒播.py"
     },
+    {
+      "key": "怀旧经典",
+      "name": "经典",
+      "type": 3,
+      "api": "./py/怀旧经典.py"
+    },
+    {
+      "key": "一牛影视",
+      "name": "一牛",
+      "type": 3,
+      "api": "./py/一牛影视.py"
+    },
+    {
+      "key": "吉利猫",
+      "name": "吉利猫",
+      "type": 3,
+      "api": "./py/吉利猫.py"
+    },
+     {
+      "key": "精仙阁",
+      "name": "精仙阁",
+      "type": 3,
+      "api": "./py/精仙阁.py"
+    },   
     {
       "key":"黄AV资源",
       "name":"黄AV",
