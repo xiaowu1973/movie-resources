@@ -193,12 +193,20 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": {
+        "站名": "花都影视",
         "发布地址": "1:https://b.hdfby.com/,2:https://b.hdfby.org/",
-        "请求头": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "主页url": "https://rb.huaduys.org",
+        "数组": "w-thumb img-shadow&&/a>",
+        "图片": "data-original=\"&&\"",
+        "标题": "title=\"&&\"",
+        "副标题": "💞",
+        "链接": "href=\"&&\"[替换:voddetail>>vodplay#.html>>-1-1.html]",
+        "跳转播放链接": "var playUrl = '&&'",
+        "直接播放": "1",
+        "嗅探词": "index.m3u8",
         "分类": "中文字幕$zhongwenzimu#无字幕$wuzimu#国产$guochan#动漫$dongman#欧美$oumei",
-        "分类url": "https://e2tel.hdys02.com/vodtype/{cateId}{catePg}.html",
-        "搜索url": "https://e2tel.hdys02.com/vodsearch/{wd}-------------.html",
-        "播放列表": "</li>"
+        "分类url": "/vodshow/{cateId}-----{letter}---{catePg}---.html",
+        "类型": "中文无码$zhongziwuma#中文有码$zhongziyouma#步兵无码$bubingwuma#骑兵有码$qibingyouma#糖心Vlog$tangxinVlog#国产传媒$guochanchuanmei#国产精品$guochanjingpin#中字里番$zhongzilifan#3D动漫$3Ddongman#AI短剧$AIduanju#欧美中字$oumeizhongzi#"
       }
     },    
     {
