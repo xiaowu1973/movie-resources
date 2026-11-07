@@ -221,7 +221,15 @@
       "type": 3,
       "api": "./py/X影视.py",
       "ext": ""
-    }, 
+    },
+    {
+      "key":"花都影院",
+      "name":"花都",
+      "type": 3,
+      "api":"https://gh-proxy.org/https://raw.githubusercontent.com/wliqi495-create/jaychouqq/refs/heads/main/yingshi/py/花都影院.py",
+      "searchable":1,
+      "quickSearch":1
+    },
     {
       "key": "PTT线上看",
       "name": "PTT",
