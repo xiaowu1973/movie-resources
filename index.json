@@ -208,6 +208,43 @@
         "分类url": "https://b3ui2j.hdys04.com/vodshow/{cateId}-----{letter}---{catePg}---.html",
         "类型": "中文无码$zhongziwuma#中文有码$zhongziyouma#步兵无码$bubingwuma#骑兵有码$qibingyouma#糖心Vlog$tangxinVlog#国产传媒$guochanchuanmei#国产精品$guochanjingpin#中字里番$zhongzilifan#3D动漫$3Ddongman#AI短剧$AIduanju#欧美中字$oumeizhongzi#"
       }
+    },
+    {
+      "key": "花都影视",
+      "name": "花都",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/花都影视.json"
+    },    
+    {
+      "key": "404truvaze",
+      "name": "404",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/404truvaze.json"
+    },
+    {
+      "key": "极乐禁区",
+      "name": "极乐",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/极乐禁区.json"
+    },
+    {
+      "key": "七猫",
+      "name": "七猫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh.dpik.top/https://github.com/ycc1195835265/18/blob/main/%E5%8D%81%E5%85%AB/json/七猫.json
+
+"
+    },    
+    {
+      "key": "X采集",
+      "name": "X采集",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://gh.dpik.top/https://github.com/ycc1195835265/18/blob/main/%E5%8D%81%E5%85%AB/json/X采集.json"
     },    
     {
       "key": "采集合集",
