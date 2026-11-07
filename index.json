@@ -210,6 +210,19 @@
       }
     },
     {
+      "key": "iKun",
+      "name": "iKun",
+      "type": 1,
+      "api": "https://www.ikunzy.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "里番动漫",
+        "伦理片"
+      ]
+    },    
+    {
       "key": "花都影视",
       "name": "花都",
       "type": 3,
