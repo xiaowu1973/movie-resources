@@ -1,0 +1,102 @@
+{
+  "spider": "",
+  "sites": [
+    {
+      "key": "量子影视",
+      "name": "量子影视(短剧2.2万+全类型)",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "{\"flag\":[\"liangzi\",\"lzm3u8\"]}"
+    },
+    {
+      "key": "360影视",
+      "name": "360影视(短剧2.2万+全类型)",
+      "type": 1,
+      "api": "https://360zy.com/api.php/seaxml/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "{\"flag\":[\"360zy\"]}"
+    },
+    {
+      "key": "索尼影视",
+      "name": "索尼影视(全类型61类)",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "{\"flag\":[\"snm3u8\"]}"
+    },
+    {
+      "key": "纯净采集",
+      "name": "纯净采集(全类型60类)",
+      "type": 1,
+      "api": "https://api.wsyzy.net/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "{\"flag\":[\"wsym3u8\"]}"
+    }
+  ],
+  "lives": [
+    {
+      "name": "短剧频道-直播",
+      "type": 0,
+      "url": "http://box.ufuzi.com/tv/qq/%E7%9F%AD%E5%89%A7%E9%A2%91%E9%81%93/lives/live.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": ""
+    }
+  ],
+  "parses": [
+    {
+      "name": "Json轮询",
+      "type": 2,
+      "url": "Sequence"
+    },
+    {
+      "name": "Json并发",
+      "type": 2,
+      "url": "Parallel"
+    },
+    {
+      "name": "Web聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
+    }
+  ],
+  "ijk": [
+    {
+      "group": "软解",
+      "ijk": [
+        {
+          "format": "",
+          "codec": "",
+          "url": "ijkplayer"
+        }
+      ]
+    },
+    {
+      "group": "硬解",
+      "ijk": [
+        {
+          "format": "",
+          "codec": "",
+          "url": "ijkplayer"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    "https://raw.githubusercontent.com/ads.txt"
+  ],
+  "wallpaper": ""
+}
