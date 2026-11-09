@@ -144,11 +144,15 @@
       "api": "csp_Feiyu"
     },
     {
-      "key": "星辰影院",
-      "name": "星辰",
-      "type": 3,
-      "api": "csp_XBPQ",
-	  "ext": "./XBPQ/星辰影院.json"	
+      "key":"星辰影院",
+      "name":"星辰",
+      "type":3,
+      "api":"csp_XBPQ",
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"https://www.hahads.com/;;!"
+      }
     },	  
     {
       "key": "旺旺影视",
