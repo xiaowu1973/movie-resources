@@ -1,10 +1,23 @@
 {
+  "主页url": "https://www.ixcyy.tv/",
+  "请求头": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
   "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5",
-  "分类url": "https://www.ixcyy.tv/v/{cateId}-{catePg}.html",
-  "搜索url": "https://www.ixcyy.tv/s{wd}.html",
+  "分类url": "https://www.ixcyy.tv/vs/{cateId}--------{catePg}---.html",
+  "搜索url": "https://www.ixcyy.tv/s.html?wd={wd}",
   "数组": "<div class=\"public-list-box public-pic-b\">&&</div></div>",
   "标题": "title=\"&&\"",
   "链接": "href=\"&&\"",
   "列表图片": "data-src=\"&&\"",
-  "播放列表": "</li>"
+  "副标题": "<span class=\"public-list-prb hide ft2\">&&</span>",
+  "搜索数组": "<div class=\"public-list-box search-box flex rel\">&&</div></div></div>",
+  "搜索标题": "<div class=\"thumb-txt cor4 hide\">&&</div>",
+  "搜索链接": "href=\"&&\"",
+  "搜索图片": "data-src=\"&&\"",
+  "详情url": "https://www.ixcyy.tv/p/{id}-1-1.html",
+  "影片名称": "class=\"player-title-link\">&&</a>",
+  "播放数组": "<div class='anthology-list-box&&</ul></div></div>",
+  "线路数组": "<div class='anthology-list-box&&</ul></div></div>",
+  "播放列表": "<li",
+  "播放标题": "<span>&&</span>",
+  "播放链接": "href=\"&&\""
 }
