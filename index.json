@@ -184,31 +184,23 @@
         "简介": ""
       }
     },
-    {
-      "key": "花都",
-      "name": "花都",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "站名": "花都影视",
-        "发布地址": "1:https://b.hdfby.com/,2:https://b.hdfby.org/",
-        "主页url": "https://b3ui2j.hdys04.com",
-        "数组": "w-thumb img-shadow&&/a>",
-        "图片": "data-original=\"&&\"",
-        "标题": "title=\"&&\"",
-        "副标题": "💞",
-        "链接": "href=\"&&\"[替换:voddetail>>vodplay#.html>>-1-1.html]",
-        "跳转播放链接": "var playUrl = '&&'",
-        "直接播放": "1",
-        "嗅探词": "index.m3u8",
-        "分类": "中文字幕$zhongwenzimu#无字幕$wuzimu#国产$guochan#动漫$dongman#欧美$oumei",
-        "分类url": "https://b3ui2j.hdys04.com/vodshow/{cateId}-----{letter}---{catePg}---.html",
-        "类型": "中文无码$zhongziwuma#中文有码$zhongziyouma#步兵无码$bubingwuma#骑兵有码$qibingyouma#糖心Vlog$tangxinVlog#国产传媒$guochanchuanmei#国产精品$guochanjingpin#中字里番$zhongzilifan#3D动漫$3Ddongman#AI短剧$AIduanju#欧美中字$oumeizhongzi#"
-      }
-    },
+ 	  {
+	    "key":"花都影视",
+	    "name":"花都",
+	    "type":3,
+	    "api":"csp_XBPQ",
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "图片代理":"0",
+        "主页url":"https://hd6.huaduzy.com/",
+        "数组":"lazyload&&</li>",
+        "图片":"data-original=\"&&\"",
+        "标题":"title=\"&&\"",
+        "链接":"/vodplay/+/voddetail/&&.html+-1-1.html",
+        "分类url":"/vodshow/{cateId}-----{letter}---{catePg}---.html;;z",
+        "分类":"有码中字$6#有码骑兵$7#无码中字$8#无码步兵$9#糖心Vlog$13#国产传媒$11#国产精品$10#欧美中字$12#中字动漫$14#3D动漫$15"
+	    }
+	  },  
     {
       "key": "iKun",
       "name": "iKun",
@@ -220,25 +212,28 @@
       "categories": []
     },    
     {
-      "key": "花都影视",
-      "name": "花都",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/花都影视.json"
+      "key": "火速论理",
+      "name": "火速",
+      "type": 1,
+      "api": "https://api.huosuapi.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
     },    
     {
       "key": "404truvaze",
       "name": "404",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./XBPQ/404truvaze.json"
+      "ext": "./XBPQ/xx/404truvaze.json"
     },
     {
       "key": "极乐禁区",
       "name": "极乐",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./XBPQ/极乐禁区.json"
+      "ext": "./XBPQ/xx/极乐禁区.json"
     },
     {
       "key": "七猫",
@@ -278,44 +273,44 @@
       "key": "fulleroticmovies",
       "name": "情色电影",
       "type": 3,
-      "api": "./py/fulleroticmovies.py"
+      "api": "./py/xx/fulleroticmovies.py"
     },
     {
       "key": "妲己视频",
       "name": "妲己",
       "type": 3,
-      "api": "./py/妲己视频.py"
+      "api": "./py/xx/妲己视频.py"
     },
     {
       "key": "熊猫秒播",
       "name": "熊猫",
       "type": 3,
-      "api": "./py/熊猫秒播.py"
+      "api": "./py/xx/熊猫秒播.py"
     },
     {
       "key": "怀旧经典",
       "name": "经典",
       "type": 3,
-      "api": "./py/怀旧经典.py"
+      "api": "./py/xx/怀旧经典.py"
     },
     {
       "key": "一牛影视",
       "name": "一牛",
       "type": 3,
-      "api": "./py/一牛影视.py"
+      "api": "./py/xx/一牛影视.py"
     },
     {
-      "key": "吉利猫",
-      "name": "吉利猫",
+      "key": "蝙蝠视频",
+      "name": "蝙蝠",
       "type": 3,
-      "api": "./py/吉利猫.py"
+      "api": "./py/xx/蝙蝠视频.py"
     },
-     {
-      "key": "精仙阁",
-      "name": "精仙阁",
+    {
+      "key": "骚女档案馆",
+      "name": "档案馆",
       "type": 3,
-      "api": "./py/精仙阁.py"
-    },   
+      "api": "./py/xx/骚女档案馆.py"
+    },    
     {
       "key":"黄AV资源",
       "name":"黄AV",
@@ -324,6 +319,30 @@
       "searchable":1,
       "quickSearch":1
     },
+    {
+      "key":"黑料资源",
+      "name":"黑料",
+      "type":1,
+      "api":"https://heiliaozyapi.com/api.php/seaxml/vod/",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"奥斯卡资源",
+      "name":"奥斯卡",
+      "type":1,
+      "api":"https://aosikazy1.com/api.php/provide/vod/",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"嘿嘿资源",
+      "name":"嘿嘿",
+      "type":1,
+      "api":"https://api.heiapi.cc/api.php/provide/vod/",
+      "searchable":1,
+      "quickSearch":1
+    },    
     {
       "key":"白嫖资源",
       "name":"白嫖",
