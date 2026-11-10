@@ -481,6 +481,69 @@
       "name": "速影",
       "type": 3,
       "api": "./py/X影视.py"
+    },
+    {
+      "key": "奇速电影",
+      "name": "奇速",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "简介：&&</div>",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "线路数组": "#playlist&&</a>",
+        "线路标题": "title=\"&&\"",
+        "分类url": "https://www.qisudy.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5#"
+      }
+    },
+    {
+      "key": "剧踪电影网",
+      "name": "剧踪",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "简介：&&</div>",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "线路数组": "more text-muted pull-right&&</div>",
+        "线路标题": "src*>&&</h3>",
+        "分类url": "https://www.juzong01.me/vodshow/{cateId}--------{catePg}---{year}/",
+        "分类": "电影$1#剧集$2#综艺$3#动漫$4#"
+      }
+    },
+    {
+      "key": "水牛影院",
+      "name": "水牛",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "简介：&&</div>",
+        "请求头": "手机",
+        "副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "线路数组": "#playlist&&</a>",
+        "线路标题": "title=\"&&\"",
+        "分类url": "https://sunnykings.com/so-show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$30#伦理片$36"
+      }
+    },
+    {
+      "key": "屁屁影院",
+      "name": "屁屁",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "简介：&&</div>",
+        "请求头": "手机",
+        "主页url": "https://www.parrothatch.com/",
+        "副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "线路数组": "#playlist&&</a>",
+        "线路标题": "title=\"&&\"",
+        "分类url": "https://www.parrothatch.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#伦理片$36"
+      }
     },	  
     {
       "key": "爱听音乐",
