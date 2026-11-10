@@ -1,5 +1,5 @@
 {
-  "spider": "./merged.jar;md5;cd70feb8c7347c4dd1a010c14d822999",
+  "spider": "./merged.jar",
   "wallpaper": "https://t.alcy.cc/fj",
   "lives": [
     {
@@ -144,12 +144,11 @@
       "api": "csp_Feiyu"
     },
     {
-      "key":"星辰影院",
-      "name":"星辰",
-      "type":3,
-      "api":"csp_XBPQ",
-      "ext":"./XBPQ/星辰影院.json"
-    },	  
+      "key": "星辰影视",
+      "name": "星辰",
+      "type": 3,
+      "api": "csp_XingChen"
+    },    	  
     {
       "key": "旺旺影视",
       "name": "旺旺",
