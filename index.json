@@ -184,23 +184,43 @@
         "简介": ""
       }
     },
- 	  {
-	    "key":"花都影视",
-	    "name":"花都",
-	    "type":3,
-	    "api":"csp_XBPQ",
+ 	{
+	  "key":"花都影视",
+	  "name":"花都",
+	  "type":3,
+	  "api":"csp_XBPQ",
       "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "图片代理":"0",
-        "主页url":"https://hd6.huaduzy.com/",
-        "数组":"lazyload&&</li>",
-        "图片":"data-original=\"&&\"",
-        "标题":"title=\"&&\"",
-        "链接":"/vodplay/+/voddetail/&&.html+-1-1.html",
-        "分类url":"/vodshow/{cateId}-----{letter}---{catePg}---.html;;z",
-        "分类":"有码中字$6#有码骑兵$7#无码中字$8#无码步兵$9#糖心Vlog$13#国产传媒$11#国产精品$10#欧美中字$12#中字动漫$14#3D动漫$15"
-	    }
-	  },  
+       "请求头":"User-Agent$MOBILE_UA",
+       "图片代理":"0",
+       "主页url":"https://hd6.huaduzy.com/",
+       "数组":"lazyload&&</li>",
+       "图片":"data-original=\"&&\"",
+       "标题":"title=\"&&\"",
+       "链接":"/vodplay/+/voddetail/&&.html+-1-1.html",
+       "分类url":"/vodshow/{cateId}-----{letter}---{catePg}---.html;;z",
+       "分类":"有码中字$6#有码骑兵$7#无码中字$8#无码步兵$9#糖心Vlog$13#国产传媒$11#国产精品$10#欧美中字$12#中字动漫$14#3D动漫$15"
+	  }
+	},
+    {
+      "key": "神马影视",
+      "name": "神马",
+      "type": 1,
+      "api": "https://www.vod38.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "科幻片",
+        "恐怖片",
+        "战争片",
+        "纪录片",
+        "国产剧",
+        "海外剧",
+        "理论片",
+        "邵氏片",
+        "动画片"
+      ]
+    },	  
     {
       "key": "iKun",
       "name": "iKun",
