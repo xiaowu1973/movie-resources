@@ -254,20 +254,6 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/xx/极乐禁区.json"
-    },
-    {
-      "key": "七猫",
-      "name": "七猫",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "https://gh.dpik.top/https://github.com/ycc1195835265/18/blob/main/%E5%8D%81%E5%85%AB/json/七猫.json"
-    },    
-    {
-      "key": "X采集",
-      "name": "X采集",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "https://gh.dpik.top/https://github.com/ycc1195835265/18/blob/main/%E5%8D%81%E5%85%AB/json/X采集.json"
     },    
     {
       "key": "采集合集",
@@ -324,17 +310,11 @@
       "name": "蝙蝠",
       "type": 3,
       "api": "./py/xx/蝙蝠视频.py"
-    },
-    {
-      "key": "骚女档案馆",
-      "name": "档案馆",
-      "type": 3,
-      "api": "./py/xx/骚女档案馆.py"
     },    
     {
       "key":"黄AV资源",
       "name":"黄AV",
-      "type":1,
+      "type":0,
       "api":"https://www.pgxdy.com/api/json.php",
       "searchable":1,
       "quickSearch":1
@@ -342,7 +322,7 @@
     {
       "key":"黑料资源",
       "name":"黑料",
-      "type":1,
+      "type":0,
       "api":"https://heiliaozyapi.com/api.php/seaxml/vod/",
       "searchable":1,
       "quickSearch":1
@@ -350,7 +330,7 @@
     {
       "key":"奥斯卡资源",
       "name":"奥斯卡",
-      "type":1,
+      "type":0,
       "api":"https://aosikazy1.com/api.php/provide/vod/",
       "searchable":1,
       "quickSearch":1
