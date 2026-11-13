@@ -148,6 +148,13 @@
       "type": 3,
       "api": "csp_JuXiaFan",
       "searchable": 1
+    },
+    {
+      "key": "懂片",
+      "name": "懂片",
+      "type": 3,
+      "api": "./py/懂片帝AI.py",
+      "searchable": 1      
     },	  
     {
       "key": "星辰影视",
