@@ -16,15 +16,6 @@
       "name": "达人频道",
       "type": 0,
       "url": "./json/达人频道.json"
-    },
-    {
-      "name": "松視频道",
-      "type": 0,
-      "url": "https://gh-proxy.com/https://github.com/wliqi495-create/jaychou123/blob/main/%E5%93%88TV18%2B.txt"
-    },	  
-    {
-      "name": "日本合集",
-      "url": "https://gh-proxy.com/https://github.com/wliqi495-create/jaychou123/blob/main/%E8%89%B2%E9%80%94%E6%97%A5%E6%9C%AC%E7%84%A1%E7%A0%81.m3u"
     },	  
     {
       "name": "精品合集",
@@ -304,17 +295,11 @@
       "name": "一牛",
       "type": 3,
       "api": "./py/xx/一牛影视.py"
-    },
-    {
-      "key": "蝙蝠视频",
-      "name": "蝙蝠",
-      "type": 3,
-      "api": "./py/xx/蝙蝠视频.py"
     },    
     {
       "key":"黄AV资源",
       "name":"黄AV",
-      "type":0,
+      "type":1,
       "api":"https://www.pgxdy.com/api/json.php",
       "searchable":1,
       "quickSearch":1
@@ -322,7 +307,7 @@
     {
       "key":"黑料资源",
       "name":"黑料",
-      "type":0,
+      "type":1,
       "api":"https://heiliaozyapi.com/api.php/seaxml/vod/",
       "searchable":1,
       "quickSearch":1
@@ -330,8 +315,9 @@
     {
       "key":"奥斯卡资源",
       "name":"奥斯卡",
-      "type":0,
-      "api":"https://aosikazy1.com/api.php/provide/vod/",
+      "type":1,
+      "api":"https://aosikazy1.com/api.php/provide/vod/?ac=list",
+	  "playUrl": "https://aojiexi.com/play.html?url=",
       "searchable":1,
       "quickSearch":1
     },
