@@ -240,21 +240,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "categories": []
-    },    
-    {
-      "key": "404truvaze",
-      "name": "404",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/xx/404truvaze.json"
-    },
-    {
-      "key": "极乐禁区",
-      "name": "极乐",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/xx/极乐禁区.json"
-    },    
+    },        
     {
       "key": "采集合集",
       "name": "采集",
