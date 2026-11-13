@@ -18,6 +18,15 @@
       "url": "./json/达人频道.json"
     },
     {
+      "name": "松視频道",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://github.com/wliqi495-create/jaychou123/blob/main/%E5%93%88TV18%2B.txt"
+    },	  
+    {
+      "name": "日本合集",
+      "url": "https://gh-proxy.com/https://github.com/wliqi495-create/jaychou123/blob/main/%E8%89%B2%E9%80%94%E6%97%A5%E6%9C%AC%E7%84%A1%E7%A0%81.m3u"
+    },	  
+    {
       "name": "精品合集",
       "url": "https://ghfile.geekertao.top/https://github.com/xiaowu1973/tvbox18/blob/master/dinka.m3u"
     }
@@ -190,14 +199,19 @@
 	  "type":3,
 	  "api":"csp_XBPQ",
       "ext":{
+	   "发布地址": "1:b.hdys.cc,2:b.hdys.top,3:b.hdys.xyz",
        "请求头":"User-Agent$MOBILE_UA",
        "图片代理":"0",
        "主页url":"https://hd6.huaduzy.com/",
-       "数组":"lazyload&&</li>",
-       "图片":"data-original=\"&&\"",
-       "标题":"title=\"&&\"",
-       "链接":"/vodplay/+/voddetail/&&.html+-1-1.html",
-       "分类url":"/vodshow/{cateId}-----{letter}---{catePg}---.html;;z",
+       "数组": "stui-vodlist__thumb&&</a",
+       "标题": "title=\"&&\"",
+       "图片": "data-original=\"&&\"",
+       "副标题": "pic-tag-b*>&&<",
+       "链接": "href=\"&&\"[替换:voddetail>>vodplay#.html>>-1-1.html]",
+       "嗅探词": ".mp4#.m3u8#.flv",
+	   "跳转播放链接": "urlDecode(Base64(var player_*url\":\"&&\"))",
+	   //"分类url": "https://hdys2.com/vodshow/{cateId}--------{catePg}---.html;;z",
+       "分类url":"https://hd6.huaduzy.com/vodshow/{cateId}-----{letter}---{catePg}---.html;;z",
        "分类":"有码中字$6#有码骑兵$7#无码中字$8#无码步兵$9#糖心Vlog$13#国产传媒$11#国产精品$10#欧美中字$12#中字动漫$14#3D动漫$15"
 	  }
 	},
