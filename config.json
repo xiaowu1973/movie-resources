@@ -319,16 +319,15 @@
       "key": "1905",
       "name": "1905",
       "type": 3,
-      "api": "csp_Web1905",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0
+      "api": "./py/1905.py",
+      "searchable": 1
     },    
     {
       "key": "华数TV",
       "name": "华数",
       "type": 3,
-      "api": "./py/华数TV.py"
+      "api": "./py/华数TV.py",
+      "searchable": 1
     },
     {
       "key": "山楂4K",
@@ -355,19 +354,22 @@
       "key": "豆花电影",
       "name": "豆花",
       "type": 3,
-      "api": "./py/豆花电影.py"
+      "api": "./py/豆花电影.py",
+      "searchable": 1		
     },	  
     {
       "key": "暮色影院",
       "name": "暮色",
       "type": 3,
-      "api": "./py/暮色影院.py"
+      "api": "./py/暮色影院.py",
+      "searchable": 1		
     },
     {
       "key": "电影人生",
       "name": "人生",
       "type": 3,
-      "api": "./py/电影人生.py"
+      "api": "./py/电影人生.py",
+      "searchable": 1		
     },	  
     {
       "key": "九霄视频",
@@ -526,6 +528,20 @@
         "分类": "电影$1#剧集$2#综艺$3#动漫$4#"
       }
     },
+    {
+      "key": "屠夫影院",
+      "name": "屠夫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类": "电影$dianying#连续剧$lianxuju#综艺$zongyi#动漫$dongman#言情片$yanqingpian#",
+        "线路数组": "class=\"dvdyy-content__playlist clearfix column6\">&&</ul>",
+        "分类url": "http://k.jsgshtl.com/s/{cateId}/area/{area}/lang/{lang}/page/{catePg}/year/{year}.html",
+        "简介": ""
+      }
+    },	  
     {
       "key": "水牛影院",
       "name": "水牛",
