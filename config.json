@@ -510,6 +510,18 @@
       "api": "./py/X影视.py"
     },
     {
+      "key": "吉吉资源",
+      "name": "吉吉",
+      "type": 1,
+      "api": "https://caiji.jjzyapi.com/api.php/provide/vod/at/xml/"
+    },
+    {
+      "key": "母鸡资源",
+      "name": "母鸡",
+      "type": 1,
+      "api": "https://mujiziyuan00.com/api.php/provide/vod/?ac=list"
+    },	  
+    {
       "key": "奇速电影",
       "name": "奇速",
       "type": 3,
