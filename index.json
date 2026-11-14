@@ -297,13 +297,29 @@
       "api": "./py/xx/一牛影视.py"
     },    
     {
+      "key":"红楼资源",
+      "name":"红楼",
+      "type":1,
+      "api":"https://www.hlzyapi.vip/api.php/provide/vod/?ac=list",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"免费资源",
+      "name":"免费",
+      "type":1,
+      "api":"https://yuanlib.com/api.php/provide/vod/?ac=list",
+      "searchable":1,
+      "quickSearch":1
+    },	  
+    {
       "key":"黄AV资源",
       "name":"黄AV",
       "type":1,
       "api":"https://www.pgxdy.com/api/json.php",
       "searchable":1,
       "quickSearch":1
-    },
+    },	  
     {
       "key":"黑料资源",
       "name":"黑料",
@@ -317,7 +333,6 @@
       "name":"奥斯卡",
       "type":1,
       "api":"https://aosikazy1.com/api.php/provide/vod/?ac=list",
-	  "playUrl": "https://aojiexi.com/play.html?url=",
       "searchable":1,
       "quickSearch":1
     },
