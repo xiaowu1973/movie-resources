@@ -29,6 +29,11 @@
       "ext": {}
     },
     {
+      "name": "台湾直播",
+      "type": 0,
+      "url": "http://4gtv.cnlive.club/4gtv.m3u"
+    },	  
+    {
       "name": "提督直播",
       "type": 1,
       "ua": "okhttp/3.15",
