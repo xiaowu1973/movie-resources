@@ -201,7 +201,6 @@
        "链接": "href=\"&&\"[替换:voddetail>>vodplay#.html>>-1-1.html]",
        "嗅探词": ".mp4#.m3u8#.flv",
 	   "跳转播放链接": "urlDecode(Base64(var player_*url\":\"&&\"))",
-	   //"分类url": "https://hdys2.com/vodshow/{cateId}--------{catePg}---.html;;z",
        "分类url":"https://rb.huaduys.org/vodshow/{cateId}-----{letter}---{catePg}---.html;;z",
        "分类":"中字有码$zhongziyouma#骑兵有码$qibingyouma#中字无码$zhongziwuma#无码步兵$bubingwuma#"
 	},
