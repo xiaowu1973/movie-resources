@@ -193,7 +193,7 @@
 	   "发布地址": "1:b.hdys.cc,2:b.hdys.top,3:b.hdys.xyz",
        "请求头":"User-Agent$MOBILE_UA",
        "图片代理":"0",
-       "主页url":"https://hd6.huaduzy.com/",
+       "主页url":"https://rb.huaduys.org/",
        "数组": "stui-vodlist__thumb&&</a",
        "标题": "title=\"&&\"",
        "图片": "data-original=\"&&\"",
@@ -202,8 +202,8 @@
        "嗅探词": ".mp4#.m3u8#.flv",
 	   "跳转播放链接": "urlDecode(Base64(var player_*url\":\"&&\"))",
 	   //"分类url": "https://hdys2.com/vodshow/{cateId}--------{catePg}---.html;;z",
-       "分类url":"https://hd6.huaduzy.com/vodshow/{cateId}-----{letter}---{catePg}---.html;;z",
-       "分类":"有码中字$6#有码骑兵$7#无码中字$8#无码步兵$9#糖心Vlog$13#国产传媒$11#国产精品$10#欧美中字$12#中字动漫$14#3D动漫$15"
+       "分类url":"https://rb.huaduys.org/vodshow/{cateId}-----{letter}---{catePg}---.html;;z",
+       "分类":"中字有码$zhongziyouma#骑兵有码$qibingyouma#中字无码$zhongziwuma#无码步兵$bubingwuma#"
 	  }
 	},
     {
@@ -263,7 +263,7 @@
       "key": "PTT线上看",
       "name": "PTT",
       "type": 3,
-      "api": "./py/PTT线上看.py",
+      "api": "./py/PTT影院.py",
       "ext": ""
     },
     {
