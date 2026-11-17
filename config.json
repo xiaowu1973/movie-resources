@@ -332,7 +332,7 @@
       "key": "1905",
       "name": "1905",
       "type": 3,
-      "api": "./py/1905.py",
+      "api": "csp_Web1905",
       "searchable": 1
     },    
     {
