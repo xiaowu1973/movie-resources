@@ -109,6 +109,33 @@
       }
     },
     {
+      "key": "云播",
+      "name": "云播",
+      "type": 3,
+      "api": "csp_AppYB",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "未来",
+      "name": "未来",
+      "type": 3,
+      "api": "csp_AppWL",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "下饭",
+      "name": "下饭",
+      "type": 3,
+      "api": "csp_JuXiaFan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },	  
+    {
       "key": "独播影视",
       "name": "独播",
       "type": 3,
@@ -136,17 +163,16 @@
       "api": "csp_Feiyu"
     },
     {
+      "key": "看剧",
+      "name": "看剧",
+      "type": 3,
+      "api": "csp_KanJuAI"
+    },	  
+    {
       "key": "米诺",
       "name": "米诺",
       "type": 3,
       "api": "csp_AppMN",
-      "searchable": 1
-    },
-    {
-      "key": "下饭",
-      "name": "下饭",
-      "type": 3,
-      "api": "csp_JuXiaFan",
       "searchable": 1
     },
     {
