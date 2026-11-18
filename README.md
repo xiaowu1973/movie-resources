@@ -16,19 +16,12 @@ MD5获取小工具：http://www.metools.info/
 
 > 使用教程：下载软件后点击下方卡片复制接口链接，到设置 - 点播 - 使用配置接口。
 
-- 牛二线路: `http://tvbox.xn--4kq62z5rby2qupq9ub.top/`
 - 菜妮丝线路: `https://tv.菜妮丝.top`
-- 小柱子线路: `https://gitee.com/happy1-is-he-who-is-content/wfs.com/raw/main/wfs.json`
 - 裙下孤魂线路: `http://bobohome.ignorelist.com:20247/`
 - 饭太硬线路: `http://www.饭太硬.cc/tv`
-- 饭太硬线路2: `http://fty.xxooo.cf/tv`
 - 饭太硬线路3: `https://cdn09022024.gitlink.org.cn/api/v1/repos/xxooo/in/raw/in.bmp`
 - 肥猫线路1: `https://w.junce.dpdns.org/fm.gif`
-- 肥猫线路2: `http://肥猫.net/tv`
 - 肥猫线路3: `http://fm.litterfishs.kdns.fr/api.json`
-- 乐哥多仓线路: `https://xn--fjq53n.xyz/zjdhk.json`
-- 乐哥线路: `https://xn--fjq53n.xyz/TV/zy.json`
-- 乐哥线路2: `http://rihou.cc:88/demo.php`
 - 南风线路: `https://gh.xxooo.cf/https://raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/XC.json`
 - 香雅晴线路: `https://gh.xxooo.cf/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json`
 - PG线路: `http://bobohome.ignorelist.com:20247/🐼PG/`
@@ -48,7 +41,6 @@ MD5获取小工具：http://www.metools.info/
 - zhyadc线路: `https://cnb.cool/zhyadc/YsBox/-/git/raw/main/影视.json`
 - sky4726线路: `http://sky4726.pp.ua:66/sk/s.json`
 - sky4726线路2: `https://gh.xxooo.cf/https://raw.githubusercontent.com/sky4726/sk/master/s.json`
-- supermeguo 18+线路: `https://gh.xxooo.cf/https://raw.githubusercontent.com/supermeguo/BoxRes/main/Myuse/catcr.json`
 
 ### 实用工具链接
 
