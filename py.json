@@ -1,0 +1,345 @@
+{
+  "spider": "./jars/XBPQ.jar",
+  "lives": [
+    {
+      "name": "咪咕直播",
+      "type": 1,
+      "ua": "okhttp/3.15",
+      "url": "http://www.52top.com.cn:678/downloads/migu.txt"
+    },
+    {
+      "name": "经典剧场",
+      "type": 0,
+      "url": "./json/经典剧场.jsont"
+    },
+    {
+      "name": "达人频道",
+      "type": 0,
+      "url": "./json/达人频道.json"
+    }
+  ],
+  "sites": [
+    {
+      "key": "央视频",
+      "name": "央视频.py",
+      "type": 3,
+      "api": "./py/央视频.py"
+    },
+    {
+      "key": "1905电影网",
+      "name": "1905",
+      "type": 3,
+      "api": "./py/1905.py"
+    },
+    {
+      "key": "极速追剧",
+      "name": "极速",
+      "type": 3,
+      "api": "./py/极速追剧.py"
+    },
+    {
+      "key": "欧洲影院",
+      "name": "欧洲",
+      "type": 3,
+      "api": "./py/欧洲影院.py"
+    },
+    {
+      "key": "影探聚合",
+      "name": "影探聚合.py",
+      "type": 3,
+      "api": "./py/影探聚合.py"
+    },
+    {
+      "key": "飞龙影院",
+      "name": "飞龙",
+      "type": 3,
+      "api": "./py/飞龙影院.py"
+    },
+    {
+      "key": "X影视",
+      "name": "速影",
+      "type": 3,
+      "api": "./py/X影视.py",
+      "ext": ""
+    },
+    {
+      "key": "PTT线上看",
+      "name": "PTT",
+      "type": 3,
+      "api": "./py/xx/PTT影院.py",
+      "ext": ""
+    },
+    {
+      "key": "暗香阁",
+      "name": "暗香阁",
+      "type": 3,
+      "api": "./py/xx/暗香阁.py"
+    },
+    {
+      "key": "四百个分类",
+      "name": "四百",
+      "type": 3,
+      "api": "./py/xx/四百个分类.py",
+      "ext": ""
+    },	  
+    {
+      "key": "fulleroticmovies",
+      "name": "情色电影",
+      "type": 3,
+      "api": "./py/xx/fulleroticmovies.py"
+    },
+    {
+      "key": "妲己视频",
+      "name": "妲己",
+      "type": 3,
+      "api": "./py/xx/妲己视频.py"
+    },
+    {
+      "key": "熊猫秒播",
+      "name": "熊猫",
+      "type": 3,
+      "api": "./py/xx/熊猫秒播.py"
+    },
+    {
+      "key": "怀旧经典",
+      "name": "经典",
+      "type": 3,
+      "api": "./py/xx/怀旧经典.py"
+    },
+    {
+      "key": "一牛影视",
+      "name": "一牛",
+      "type": 3,
+      "api": "./py/xx/一牛影视.py"
+    },
+    {
+      "key": "花都",
+      "name": "花都",
+      "type": 3,
+      "api": "csp_XBPQ",		
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://rb.huaduys.org/;;!z",
+        "数组": ""
+      }
+    },
+    {
+      "key": "屁屁影院",
+      "name": "屁屁",
+      "type": 3,
+      "api": "csp_XBPQ",		
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.parrothatch.com/;;!H",
+        "数组": ""
+      }
+    },
+    {
+      "key": "水牛影院",
+      "name": "水牛",
+      "type": 3,
+      "api": "csp_XBPQ",		
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://sunnykings.com/;;!H",
+        "数组": ""
+      }
+    },
+    {
+      "key": "屠夫影院",
+      "name": "屠夫",
+      "type": 3,
+      "api": "csp_XBPQ",		
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "http://k.jsgshtl.com/;;!H",
+        "数组": ""
+      }
+    },
+    {
+      "key": "神马影视",
+      "name": "神马",
+      "type": 1,
+      "api": "https://www.vod38.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "科幻片",
+        "恐怖片",
+        "战争片",
+        "纪录片",
+        "国产剧",
+        "海外剧",
+        "理论片",
+        "邵氏片",
+        "动画片"
+      ]
+    },	  
+    {
+      "key": "iKun",
+      "name": "iKun",
+      "type": 1,
+      "api": "https://www.ikunzy.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },    
+    {
+      "key": "火速论理",
+      "name": "火速",
+      "type": 1,
+      "api": "https://api.huosuapi.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },   
+    {
+      "key":"红楼资源",
+      "name":"红楼",
+      "type":1,
+      "api":"https://www.hlzyapi.vip/api.php/provide/vod/?ac=list",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"免费资源",
+      "name":"免费",
+      "type":1,
+      "api":"https://yuanlib.com/api.php/provide/vod/?ac=list",
+      "searchable":1,
+      "quickSearch":1
+    },	  
+    {
+      "key":"黄AV资源",
+      "name":"黄AV",
+      "type":1,
+      "api":"https://www.pgxdy.com/api/json.php",
+      "searchable":1,
+      "quickSearch":1
+    },	  
+    {
+      "key":"黑料资源",
+      "name":"黑料",
+      "type":1,
+      "api":"https://heiliaozyapi.com/api.php/seaxml/vod/",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"奥斯卡资源",
+      "name":"奥斯卡",
+      "type":1,
+      "api":"https://aosikazy1.com/api.php/provide/vod/?ac=list",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"嘿嘿资源",
+      "name":"嘿嘿",
+      "type":1,
+      "api":"https://api.heiapi.cc/api.php/provide/vod/",
+      "searchable":1,
+      "quickSearch":1
+    },    
+    {
+      "key":"白嫖资源",
+      "name":"白嫖",
+      "type":1,
+      "api":"https://www.kxgav.com/api/json.php",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"美少女资源",
+      "name":"美少女",
+      "type":1,
+      "api":"https://www.msnii.com/api/json.php",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"香奶儿资源",
+      "name":"香奶儿",
+      "type":1,
+      "api":"https://www.gdlsp.com/api/json.php",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"淫水机资源",
+      "name":"淫水机",
+      "type":1,
+      "api":"https://www.xrbsp.com/api/json.php",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key": "push_agent",
+      "name": "Push",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 0,
+      "changeable": 0,
+      "timeout": 60
+    }
+  ],
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "name": "sniffer",
+      "hosts": [
+        "api.52wyb.com"
+      ],
+      "regex": [
+        "m3u8?pt=m3u8"
+      ]
+    },
+    {
+      "name": "click",
+      "hosts": [
+        "www.maolvys.com"
+      ],
+      "script": [
+        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+      ]
+    }
+  ],
+  "ads": [
+    "static-mozai.4gtv.tv",
+    "s3t3d2y8.afcdn.net"
+  ]
+}
