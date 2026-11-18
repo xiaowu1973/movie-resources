@@ -113,19 +113,17 @@
       "api": "./py/xx/一牛影视.py"
     },
     {
-      "key": "花都",
+      "key": "花都影院",
       "name": "花都",
       "type": 3,
-      "api": "csp_XBPQ",		
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://rb.huaduys.org/;;!z",
-        "数组": ""
-      }
+      "api": "./py/xx/花都影院.py"
     },
+    {
+      "key": "徐娘阁",
+      "name": "徐娘",
+      "type": 3,
+      "api": "./py/xx/徐娘阁.py"
+    },    
     {
       "key": "屁屁影院",
       "name": "屁屁",
