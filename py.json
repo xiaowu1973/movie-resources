@@ -107,17 +107,23 @@
       "api": "./py/xx/一牛影视.py"
     },
     {
-      "key": "花都影院",
-      "name": "花都",
+      "key": "聚合采集",
+      "name": "聚合",
       "type": 3,
-      "api": "./py/xx/花都影院.py"
+      "api": "https://gh-proxy.com/https://github.com/wliqi495-create/jaychou123/blob/main/yingshi/pytesx/%E8%81%9A%E5%90%88%E5%B9%B3%E5%8F%B00.py"
     },
     {
-      "key": "徐娘阁",
-      "name": "徐娘",
+      "key": "avjoy",
+      "name": "avjoy",
       "type": 3,
-      "api": "./py/xx/徐娘阁.py"
-    },    
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/wliqi495-create/jaychouqq/a18029a973863b05090f2573a089573b12ba9790/yingshi/pytesx/avjoy.py"
+    },
+    {
+      "key":"88影视",
+      "name":"八八",
+      "type": 3,
+      "api":"https://gh-proxy.com/https://github.com/ge6bu6/1/blob/main/py/88影视.py"
+    },
     {
       "key": "屁屁影院",
       "name": "屁屁",
