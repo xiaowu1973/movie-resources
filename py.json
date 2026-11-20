@@ -146,10 +146,10 @@
       "searchable": 1,
       "quickSearch": 1,
       "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://sunnykings.com/;;!H",
-        "数组": ""
+       "请求头": "User-Agent$MOBILE_UA",
+       "编码": "UTF-8",
+       "分类url": "https://sunnykings.com/;;!H",
+       "数组": ""
       }
     },
     {
@@ -160,10 +160,10 @@
       "searchable": 1,
       "quickSearch": 1,
       "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "http://k.jsgshtl.com/;;!H",
-        "数组": ""
+       "请求头": "User-Agent$MOBILE_UA",
+       "编码": "UTF-8",
+       "分类url": "http://k.jsgshtl.com/;;!H",
+       "数组": ""
       }
     },
     {
@@ -211,14 +211,7 @@
       "name":"红楼",
       "type":1,
       "api":"https://www.hlzyapi.vip/api.php/provide/vod/?ac=list",
-      "searchable":1,
-      "quickSearch":1
-    },
-    {
-      "key":"免费资源",
-      "name":"免费",
-      "type":1,
-      "api":"https://yuanlib.com/api.php/provide/vod/?ac=list",
+      "playurl": "json:https://api.hlzy.my/url=",
       "searchable":1,
       "quickSearch":1
     },	  
