@@ -681,7 +681,7 @@
     },
     {
       "key": "七猫短剧",
-      "name": "七猫,
+      "name": "七猫",
       "type": 3,
       "api": "csp_ShortQimao",
       "genre": "shortdrama"
