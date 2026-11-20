@@ -31,14 +31,14 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "豆瓣 • 首页",
+      "name": "豆瓣",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
     },
     {
       "key": "配置中心",
-      "name": "配置 • 中心",
+      "name": "配置",
       "type": 3,
       "api": "csp_Config",
       "searchable": 0,
@@ -51,14 +51,14 @@
     },
     {
       "key": "预告",
-      "name": "新片 • 预告",
+      "name": "新片",
       "type": 3,
       "api": "csp_YGP",
       "searchable": 0
     },
     {
       "key": "热播影视",
-      "name": "热播 • APP",
+      "name": "热播",
       "type": 3,
       "api": "csp_AppRJ",
       "searchable": 1,
@@ -83,7 +83,7 @@
     },
     {
       "key": "云播",
-      "name": "云播 • APP",
+      "name": "云播",
       "type": 3,
       "api": "csp_AppYB",
       "searchable": 1,
@@ -92,7 +92,7 @@
     },
     {
       "key": "未来",
-      "name": "未来 • APP",
+      "name": "未来",
       "type": 3,
       "api": "csp_AppWL",
       "searchable": 1,
@@ -101,7 +101,7 @@
     },
     {
       "key": "下饭",
-      "name": "下饭 • APP",
+      "name": "下饭",
       "type": 3,
       "api": "csp_JuXiaFan",
       "searchable": 1,
