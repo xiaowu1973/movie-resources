@@ -358,7 +358,7 @@
       "key": "1905",
       "name": "1905",
       "type": 3,
-      "api": "csp_Web1905",
+      "api": "./py/1905.py",
       "searchable": 1
     },    
     {
@@ -548,11 +548,12 @@
       "api": "https://caiji.jjzyapi.com/api.php/provide/vod/at/xml/"
     },
     {
-      "key": "母鸡资源",
-      "name": "母鸡",
-      "type": 1,
-      "api": "https://mujiziyuan00.com/api.php/provide/vod/?ac=list"
-    },
+	  "key":"电影天堂",
+	  "name":"天堂",
+	  "type":1,
+	  "api":"http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list",
+	  "searchable":1
+	},
     {
       "key": "兄弟影视",
       "name": "兄弟",
