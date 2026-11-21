@@ -125,6 +125,25 @@
       "api":"https://gh-proxy.com/https://github.com/ge6bu6/1/blob/main/py/88影视.py"
     },
     {
+      "key": "91爱视频",
+      "name": "九一",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "简介：&&</div>",
+        "副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "标题":"<h3>&&</h3>",
+        "链接":"href=\"&&\"",
+        "列表图片":"src=\"https:&&\"",
+        "播放数组":"<div class=\"episode-list\"&&</div>",
+        "播放列表":"</a>",
+        "播放标题":">&&",
+        "播放链接":"href=\"&&\"",
+        "分类url": "https://a2d.91aimf.fun/type/{cateId}-{catePg}.html","搜索url":"https://a2d.91aimf.fun/vodsearch/-------------_.html?wd={wd}",
+        "分类": "国产自拍$1#主播诱惑$2#探花约炮$3#偷拍偷窥$4#网曝吃瓜$5"
+      }
+    },
+    {
       "key": "水牛影院",
       "name": "水牛",
       "type": 3,
@@ -138,7 +157,7 @@
         "分类url": "https://sunnykings.com/so-show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
         "分类": "电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$30#伦理片$36"
       }
-    },
+    },    
     {
       "key": "屁屁影院",
       "name": "屁屁",
