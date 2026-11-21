@@ -1,5 +1,5 @@
 {
-  "spider": "./jars/XBPQ.jar",
+  "spider": "./spider.txt",
   "lives": [
     {
       "name": "咪咕直播",
@@ -125,47 +125,50 @@
       "api":"https://gh-proxy.com/https://github.com/ge6bu6/1/blob/main/py/88影视.py"
     },
     {
-      "key": "屁屁影院",
-      "name": "屁屁",
-      "type": 3,
-      "api": "csp_XBPQ",		
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://www.parrothatch.com/;;!H",
-        "数组": ""
-      }
-    },
-    {
       "key": "水牛影院",
       "name": "水牛",
       "type": 3,
-      "api": "csp_XBPQ",		
-      "searchable": 1,
-      "quickSearch": 1,
+      "api": "csp_XBPQ",
       "ext": {
-       "请求头": "User-Agent$MOBILE_UA",
-       "编码": "UTF-8",
-       "分类url": "https://sunnykings.com/;;!H",
-       "数组": ""
+        "简介": "简介：&&</div>",
+        "请求头": "手机",
+        "副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "线路数组": "#playlist&&</a>",
+        "线路标题": "title=\"&&\"",
+        "分类url": "https://sunnykings.com/so-show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$30#伦理片$36"
       }
     },
+    {
+      "key": "屁屁影院",
+      "name": "屁屁",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "简介：&&</div>",
+        "请求头": "手机",
+        "主页url": "https://www.parrothatch.com/",
+        "副标题": "<span class=\"pic-text text-right\">&&</span>",
+        "线路数组": "#playlist&&</a>",
+        "线路标题": "title=\"&&\"",
+        "分类url": "https://www.parrothatch.com/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#伦理片$36"
+      }
+    },    
     {
       "key": "屠夫影院",
       "name": "屠夫",
       "type": 3,
-      "api": "csp_XBPQ",		
-      "searchable": 1,
-      "quickSearch": 1,
+      "api": "csp_XBPQ",
       "ext": {
-       "请求头": "User-Agent$MOBILE_UA",
-       "编码": "UTF-8",
-       "分类url": "http://k.jsgshtl.com/;;!H",
-       "数组": ""
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类": "电影$dianying#连续剧$lianxuju#综艺$zongyi#动漫$dongman#言情片$yanqingpian#",
+        "线路数组": "class=\"dvdyy-content__playlist clearfix column6\">&&</ul>",
+        "分类url": "http://k.jsgshtl.com/s/{cateId}/area/{area}/lang/{lang}/page/{catePg}/year/{year}.html",
+        "简介": ""
       }
-    },
+    },    
     {
       "key": "神马影视",
       "name": "神马",
