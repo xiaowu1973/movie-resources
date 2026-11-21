@@ -359,7 +359,13 @@
       "quickSearch": 0,
       "filterable": 0,
       "timeout": 60
-    },    
+    },
+    {
+      "key": "1905",
+      "name": "1905",
+      "type": 3,
+      "api": "./py/1905电影网.py"
+    },	  
     {
       "key": "华数TV",
       "name": "华数",
@@ -429,11 +435,25 @@
       "type": 3,
       "api": "./py/skapp.py",
       "ext": {
-	"host": "https://kankelm.cn:2024/appdomain.txt",
-	"key": "ygcnbcvybqqckwqy",
-	"iv": "1583560747143708"
+	   "host": "https://kankelm.cn:2024/appdomain.txt",
+	   "key": "ygcnbcvybqqckwqy",
+	   "iv": "1583560747143708"
       }
     },
+    {
+      "key": "demo_py",
+      "name": "悟空",
+      "type": 3,
+      "api": "./MB/spider_template.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site_name": "悟空",
+        "host": "https://www.wxxkdp.com",
+        "api": "https://www.wxxkdp.com/api.php/provide/vod/"
+      }
+    },    	  
     {
       "key": "追剧达人",
       "name": "达人",
