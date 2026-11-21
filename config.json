@@ -84,6 +84,12 @@
       }
     },
     {
+      "key": "1905电影网",
+      "name": "1905",
+      "type": 3,
+      "api": "./py/1905.py"
+    },	  
+    {
       "key": "韩圈",
       "name": "韩圈",
       "type": 3,
@@ -353,13 +359,6 @@
       "quickSearch": 0,
       "filterable": 0,
       "timeout": 60
-    },
-    {
-      "key": "1905",
-      "name": "1905",
-      "type": 3,
-      "api": "./py/1905.py",
-      "searchable": 1
     },    
     {
       "key": "华数TV",
