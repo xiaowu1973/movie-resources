@@ -359,12 +359,6 @@
       "quickSearch": 0,
       "filterable": 0,
       "timeout": 60
-    },
-    {
-      "key": "1905",
-      "name": "1905",
-      "type": 3,
-      "api": "./py/1905电影网.py"
     },	  
     {
       "key": "华数TV",
