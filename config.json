@@ -634,6 +634,19 @@
         "分类url": "http://ftys24.com/ftvodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
         "分类": "电影$1#电视剧$2#综艺$3#动漫$4#"
       }
+    },
+    {
+      "key": "极速追剧",
+      "name": "极速",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "简介：&&</div>",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://jisuzhuiju.com/filter?channel=2&type={cateid}&area={area}&year={year}&sort=hot&page={catepg}",
+        "分类": "电影$dianying#电视剧$dianshiju#综艺$zongyi#动漫$dongman#"
+      }
     },	  
     {
       "key": "奇速电影",
