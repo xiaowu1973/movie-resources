@@ -622,6 +622,42 @@
       }
     },
     {
+      "key": "奇点影视",
+      "name": "奇点",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "站名":"奇点影视",
+        "分类":"电影$1#电视剧$2#综艺$3#动漫$4#短剧$39",
+        "分类url":"https://qidianyingshi.net/list/{cateId}-{catePg}.html"
+      }
+    },
+    {
+      "key": "拾光影视",
+      "name": "拾光",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "请求头":"User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "搜索url":"https://tv.time1080.xyz/search.php?wd={wd}",
+        "分类url": "https://tv.time1080.xyz/vodshow/{cateId}--{by}---{year}-{catePg}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+      }
+    },	  
+    {
+      "key": "蓝光资源站",
+      "name": "蓝光",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "简介：&&</div>",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://yanshi.lgzyz.xyz/index.php/vod/show/{area}/{cateid}/page/{catepg}/year/{year}.html",
+        "分类": "电影$1#连续剧$2#综艺$48#动漫$47#"
+      }
+    },	  
+    {
       "key": "极速追剧",
       "name": "极速",
       "type": 3,
