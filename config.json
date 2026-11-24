@@ -432,20 +432,6 @@
 	   "key": "ygcnbcvybqqckwqy",
 	   "iv": "1583560747143708"
       }
-    },
-    {
-      "key": "demo_py",
-      "name": "测试",
-      "type": 3,
-      "api": "./MB/spider_template.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "site_name": "测试",
-        "host": "https://www.wxxkdp.com",
-        "api": "https://www.wxxkdp.com/api.php/provide/vod/"
-      }
     },    	  
     {
       "key": "追剧达人",
