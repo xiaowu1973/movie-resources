@@ -68,6 +68,13 @@
       "type": 3,
       "api": "./py/xx/PTT影院.py",
       "ext": ""
+    },   
+    {
+      "key": "404",
+      "name": "404",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/xx/404truvaze.json"
     },
     {
       "key": "四百个分类",
@@ -75,7 +82,7 @@
       "type": 3,
       "api": "./py/xx/四百个分类.py",
       "ext": ""
-    },	  
+    },    
     {
       "key": "fulleroticmovies",
       "name": "老片",
