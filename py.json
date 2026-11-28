@@ -154,6 +154,30 @@
       "api":"https://gh-proxy.com/https://github.com/ge6bu6/1/blob/main/py/88影视.py"
     },
     {
+      "key":"经典世界sex电影2",
+      "name":"经典",
+      "type": 3,
+      "api":"https://gh-proxy.com/https://github.com/ge6bu6/1/blob/main/py/fulleroticmovies.py",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"xvideos个人轮巡版",
+      "name":"xvideos个人轮巡版",
+      "type": 3,
+      "api":"https://wget.la/https://github.com/zheng197600/tvbox/blob/main/js/xvideos个人轮巡版.py",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
+      "key":"怦然心动",
+      "name":"怦然心动",
+      "type": 3,
+      "api":"https://gh-proxy.org/https://github.com/Li-Deng-Hui/ComponentProject/blob/master/py/怦然心动.py",
+      "searchable":1,
+      "quickSearch":1
+    },
+    {
       "key":"三级片",
       "name":"三级片",
       "type": 3,
@@ -249,6 +273,13 @@
       "quickSearch": 1,
       "filterable": 1,
       "categories": []
+    },
+    {
+      "key":"乐播资源",
+      "name":"乐播",
+      "type":0,
+      "playurl": "json:https://lbjx9.com/?url=",
+      "api":"https://lbapi9.com/api.php/provide/vod/at/xml/"
     },
     {
       "key": "黑色影视",
